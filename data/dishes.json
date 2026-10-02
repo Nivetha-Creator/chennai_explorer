@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Idli",
+    "name_ta": "இட்லி",
+    "diet": "Vegetarian",
+    "description": "Steamed fermented rice-and-lentil cakes commonly eaten for breakfast."
+  },
+  {
+    "name": "Dosa",
+    "name_ta": "தோசை",
+    "diet": "Vegetarian",
+    "description": "A thin fermented rice-and-lentil crepe commonly served with chutney and sambar."
+  },
+  {
+    "name": "Pongal",
+    "name_ta": "பொங்கல்",
+    "diet": "Vegetarian",
+    "description": "A traditional South Indian dish commonly prepared with rice and lentils."
+  },
+  {
+    "name": "Filter Coffee",
+    "name_ta": "ஃபில்டர் காபி",
+    "diet": "Vegetarian",
+    "description": "South Indian-style coffee traditionally prepared using a metal filter and served with milk."
+  },
+  {
+    "name": "Sambar",
+    "name_ta": "சாம்பார்",
+    "diet": "Vegetarian",
+    "description": "A lentil-based vegetable stew commonly served with South Indian meals."
+  }
+]

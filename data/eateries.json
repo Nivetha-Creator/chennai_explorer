@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Saravana Bhavan",
+    "area": "T Nagar",
+    "lat": 13.0418,
+    "lng": 80.2341,
+    "diet": "Vegetarian",
+    "cuisine": "South Indian",
+    "price_band": "₹₹",
+    "notes": "Known for South Indian vegetarian dishes.",
+    "source": "Curated Chennai Explorer data"
+  },
+  {
+    "name": "Murugan Idli Shop",
+    "area": "T Nagar",
+    "lat": 13.0418,
+    "lng": 80.2341,
+    "diet": "Vegetarian",
+    "cuisine": "South Indian",
+    "price_band": "₹",
+    "notes": "Known for idli and other South Indian breakfast dishes.",
+    "source": "Curated Chennai Explorer data"
+  },
+  {
+    "name": "Rayar's Mess",
+    "area": "Mylapore",
+    "lat": 13.0339,
+    "lng": 80.2676,
+    "diet": "Vegetarian",
+    "cuisine": "South Indian",
+    "price_band": "₹",
+    "notes": "Traditional-style South Indian food.",
+    "source": "Curated Chennai Explorer data"
+  }
+]

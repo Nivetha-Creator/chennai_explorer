@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mylapore",
+    "name_ta": "மயிலாப்பூர்",
+    "lat": 13.0339,
+    "lng": 80.2676
+  },
+  {
+    "name": "Marina Beach",
+    "name_ta": "மெரினா கடற்கரை",
+    "lat": 13.0500,
+    "lng": 80.2824
+  },
+  {
+    "name": "Besant Nagar",
+    "name_ta": "பெசன்ட் நகர்",
+    "lat": 13.0003,
+    "lng": 80.2667
+  },
+  {
+    "name": "Adyar",
+    "name_ta": "அடையாறு",
+    "lat": 13.0063,
+    "lng": 80.2574
+  },
+  {
+    "name": "Guindy",
+    "name_ta": "கிண்டி",
+    "lat": 13.0067,
+    "lng": 80.2206
+  },
+  {
+    "name": "T Nagar",
+    "name_ta": "தி.நகர்",
+    "lat": 13.0418,
+    "lng": 80.2341
+  },
+  {
+    "name": "Egmore",
+    "name_ta": "எழும்பூர்",
+    "lat": 13.0732,
+    "lng": 80.2609
+  },
+  {
+    "name": "George Town",
+    "name_ta": "ஜார்ஜ் டவுன்",
+    "lat": 13.0895,
+    "lng": 80.2785
+  },
+  {
+    "name": "Velachery",
+    "name_ta": "வேளச்சேரி",
+    "lat": 12.9815,
+    "lng": 80.2180
+  },
+  {
+    "name": "Tambaram",
+    "name_ta": "தாம்பரம்",
+    "lat": 12.9249,
+    "lng": 80.1000
+  }
+]

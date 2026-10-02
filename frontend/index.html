@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chennai Explorer</title>
+
+    <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+
+<body>
+
+    <div class="chat-app">
+
+        <!-- =========================
+             SIDEBAR
+        ========================== -->
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-icon">CE</div>
+
+                    <div>
+                        <h1>Chennai Explorer</h1>
+                        <span>AI Travel Assistant</span>
+                    </div>
+                </div>
+
+                <button id="new-chat-btn" class="new-chat-btn">
+                    + New Chat
+                </button>
+            </div>
+
+
+            <!-- Navigation -->
+
+            <div class="navigation">
+
+                <p class="nav-title">EXPLORE</p>
+
+                <button class="nav-item active" data-message="Explore Chennai">
+                    <span class="nav-icon">✦</span>
+                    <span>Explore Chennai</span>
+                </button>
+
+                <button class="nav-item" data-message="Find the best food in Chennai">
+                    <span class="nav-icon">🍴</span>
+                    <span>Food Explorer</span>
+                </button>
+
+                <button class="nav-item" data-message="What activities can I do in Chennai?">
+                    <span class="nav-icon">◎</span>
+                    <span>Places & Activities</span>
+                </button>
+
+                <button class="nav-item" data-message="Plan a trip in Chennai">
+                    <span class="nav-icon">◈</span>
+                    <span>Itinerary Planner</span>
+                </button>
+
+                <button class="nav-item" data-message="Help me plan a Chennai trip within my budget">
+                    <span class="nav-icon">₹</span>
+                    <span>Budget Planner</span>
+                </button>
+
+                <button class="nav-item" data-message="Find places near me in Chennai">
+                    <span class="nav-icon">⌖</span>
+                    <span>Nearby</span>
+                </button>
+
+                <button class="nav-item" data-message="How can I travel around Chennai?">
+                    <span class="nav-icon">⇄</span>
+                    <span>Transport</span>
+                </button>
+
+            </div>
+
+
+            <!-- Recent Chats -->
+
+            <div class="recent-section">
+
+                <p class="nav-title">RECENT CHATS</p>
+
+                <div id="recent-chats">
+
+                    <button class="recent-chat">
+                        <span>☰</span>
+                        Chennai weekend plan
+                    </button>
+
+                    <button class="recent-chat">
+                        <span>☰</span>
+                        Best food to try
+                    </button>
+
+                    <button class="recent-chat">
+                        <span>☰</span>
+                        Places near Tambaram
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bottom -->
+
+            <div class="sidebar-bottom">
+
+                <button class="nav-item" id="history-btn">
+                    <span class="nav-icon">◷</span>
+                    <span>Chat History</span>
+                </button>
+
+                <button class="nav-item" id="settings-btn">
+                    <span class="nav-icon">⚙</span>
+                    <span>Settings</span>
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =========================
+             MAIN CHAT
+        ========================== -->
+
+        <main class="chat-container">
+
+            <!-- Header -->
+
+            <header class="chat-header">
+
+                <div class="header-info">
+
+                    <div class="bot-avatar">
+                        CE
+                    </div>
+
+                    <div>
+                        <h2>Chennai Explorer</h2>
+
+                        <div class="online-status">
+                            <span class="online-dot"></span>
+                            Online
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="header-actions">
+
+                    <button class="language-btn" id="language-btn">
+                        EN
+                    </button>
+
+                    <button class="header-button" id="clear-chat-btn">
+                        ⟳
+                    </button>
+
+                </div>
+
+            </header>
+
+
+            <!-- Chat messages -->
+
+            <section class="chat-box" id="chat-box">
+
+                <!-- Welcome -->
+
+                <div class="welcome-area" id="welcome-area">
+
+                    <div class="welcome-icon">
+                        ✦
+                    </div>
+
+                    <h2>Vanakkam! 👋</h2>
+
+                    <p>
+                        I'm Chennai Explorer, your AI-powered guide to Chennai.
+                    </p>
+
+                    <p>
+                        Ask me about places, food, activities, transport,
+                        itineraries, or anything else about Chennai.
+                    </p>
+
+
+                    <div class="suggestion-grid">
+
+                        <button class="suggestion-card"
+                                data-message="What are the best places to visit in Chennai?">
+
+                            <span>📍</span>
+
+                            <div>
+                                <strong>Explore Chennai</strong>
+                                <small>Discover popular places</small>
+                            </div>
+
+                        </button>
+
+
+                        <button class="suggestion-card"
+                                data-message="What food should I try in Chennai?">
+
+                            <span>🍛</span>
+
+                            <div>
+                                <strong>Food Explorer</strong>
+                                <small>Discover Chennai food</small>
+                            </div>
+
+                        </button>
+
+
+                        <button class="suggestion-card"
+                                data-message="What activities can I do in Chennai?">
+
+                            <span>🎯</span>
+
+                            <div>
+                                <strong>Things to Do</strong>
+                                <small>Find activities</small>
+                            </div>
+
+                        </button>
+
+
+                        <button class="suggestion-card"
+                                data-message="Plan a one day Chennai trip">
+
+                            <span>🗺️</span>
+
+                            <div>
+                                <strong>Plan a Trip</strong>
+                                <small>Create an itinerary</small>
+                            </div>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Input area -->
+
+            <footer class="input-area">
+
+                <div class="input-wrapper">
+
+                    <textarea
+                        id="message-input"
+                        placeholder="Ask anything about Chennai..."
+                        rows="1"></textarea>
+
+                    <button id="send-btn" class="send-btn">
+                        ➤
+                    </button>
+
+                </div>
+
+                <div class="input-footer">
+                    Chennai Explorer can make mistakes. Verify important information.
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+
+    <script src="/frontend/js/api.js"></script>
+    <script src="/frontend/js/app.js"></script>
+    <script src="/frontend/js/map.js"></script>
+
+</body>
+</html>
